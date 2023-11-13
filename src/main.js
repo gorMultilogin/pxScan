@@ -11,15 +11,13 @@ app.use(router)
 app.mount('#app')
 
 const listOfNoneProperties = {};
-for (var props in window) {
-    if(!window.hasOwnProperty(props)){
-        if(typeof window[props] === 'function'){
-            listOfNoneProperties[props] = window[props];
-
-        }else{
-            listOfNoneProperties[props] = window[props];
-        }
-    }
-}
-console.log({listOfNoneProperties})
-console.log({self})
+// for (var props in window) {
+//     if(!window.hasOwnProperty(props)){
+//         if(typeof window[props] === 'function'){
+//             listOfNoneProperties[props] = window[props];
+//
+//         }else{
+//             listOfNoneProperties[props] = window[props];
+//         }
+//     }
+// }

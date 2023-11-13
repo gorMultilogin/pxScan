@@ -1,33 +1,18 @@
 import {listFunc} from './list.js'
 import {hexadecimal} from "@/js/hexadecimal";
+import {hexoExecutor} from "@/js/hexoExecutor";
 
 const _0x3d444f = hexadecimal;
-(function (_0x47df41, _0x4a8251) {
-    const _0x15357e = hexadecimal,
-        _0x4ade07 = _0x47df41();
-    while (!![]) {
-        try {
-            const _0x552a04 =
-                (-parseInt(_0x15357e(0x891)) / 0x1) * (parseInt(_0x15357e(0x6d5)) / 0x2) +
-                (parseInt(_0x15357e(0x20d)) / 0x3) * (parseInt(_0x15357e(0x10be)) / 0x4) +
-                parseInt(_0x15357e(0x87a)) / 0x5 +
-                -parseInt(_0x15357e(0x9c3)) / 0x6 +
-                -parseInt(_0x15357e(0x7a3)) / 0x7 +
-                -parseInt(_0x15357e(0x683)) / 0x8 +
-                (parseInt(_0x15357e(0x19f)) / 0x9) * (parseInt(_0x15357e(0xb03)) / 0xa);
-            if (_0x552a04 === _0x4a8251) break;
-            else _0x4ade07["push"](_0x4ade07["shift"]());
-        } catch (_0x192d34) {
-            _0x4ade07["push"](_0x4ade07["shift"]());
-        }
-    }
-})(listFunc, 0x3c04b),
+
+hexoExecutor(listFunc, 0x3c04b),
     (self[_0x3d444f(0x698)] = self[_0x3d444f(0x698)] || [])[_0x3d444f(0x5d4)]([
         [0xb3],
         {
             0x1072: (_0x20cf1c, _0x65d997) => {
                 "use strict";
                 const _0xdcbd5d = _0x3d444f;
+                console.log({0x1072: Object[_0xdcbd5d(0x7c6)](_0x65d997, _0xdcbd5d(0x9b4), { value: !0x0 })
+                })
                 Object[_0xdcbd5d(0x7c6)](_0x65d997, _0xdcbd5d(0x9b4), { value: !0x0 });
             },
             0x1a07: (_0x2aff1d, _0x486442) => {
@@ -3553,6 +3538,7 @@ const _0x3d444f = hexadecimal;
                             _0xaeb480
                     );
                 })();
+                console.log({3556: _0x16ec8e})
                 var _0x139502 = _0x43d615(0xb05);
                 let _0xe301c2 = (() => {
                         const _0x4fd98b = _0x6b2d78;
@@ -35890,3 +35876,7 @@ const _0x3d444f = hexadecimal;
             _0x16a217((_0x16a217["s"] = 0x17a5));
         },
     ]);
+var selfMain = self[_0x3d444f(0x698)];
+console.log({ selfMain });
+console.log({ 0xb3: [0xb3] });
+// console.log({ hex:  Object[hexadecimal(0x7c6)](_0x65d997, hexadecimal(0x9b4), { value: !0x0 } })
